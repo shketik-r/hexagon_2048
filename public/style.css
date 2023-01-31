@@ -1,0 +1,90 @@
+*{
+  font-family: Arial;
+  font-size: 16px;
+}
+.body{
+  background: #faf3ec;
+}
+.menu{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  border: grey solid 2px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  background: #b0b0b0;
+  box-shadow: 2px 2px 6px 0;
+
+}
+.menu_levels{
+  display: flex;
+  align-items: center;
+}
+.menu_btn{
+  margin-left: 10px;
+  border: none;
+  width: 50px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 1px 2px 6px 0;
+}
+.menu_url{
+  display: flex;
+  align-items: center;
+}
+.wrapper_games{
+  display: flex;
+  width: 100%;
+  min-height: 150px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.wrapper_hexagon{
+ position: relative;
+  border: grey solid 2px;
+  border-radius: 100%;
+  background: #dfdfdf;
+  box-shadow: inset 1px 1px 20px 2px;;
+}
+
+.cell{
+  width:50px;
+  height: 50px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 100px;
+}
+
+.point{
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.status_green{
+  color: #017e01;
+}
+
+.status_red{
+  color: red;
+}
+
+img{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.wrapper_instruction{
+  display: flex;
+  justify-content: center;
+}
+.instruction{
+  font-size: 30px;
+}
